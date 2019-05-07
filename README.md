@@ -1,5 +1,7 @@
 # jet-sweep
-sweep your digital assets to higher interest accounts
+Minimize idle crypto drag by temporarilty sweeping your digital assets to higher interest accounts (in this case, Compound v2 Presidio). 
+
+Sparked from an idea on how to offset the rising MakerDAO stability fee costs. Goal is to use hot/cold idle ETH to capture interest overnight.
 
 [Investopedia definition](https://www.investopedia.com/terms/s/sweepaccount.asp): 
 * A sweep account automatically transfers cash funds into a safe but higher interest-earning investment option at the close of each business day, e.g. into a money market fund.
