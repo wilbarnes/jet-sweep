@@ -1,5 +1,5 @@
 # jet-sweep
-Minimize idle crypto drag by temporarilty sweeping your digital assets to higher interest accounts (in this case, Compound v2 Presidio). 
+Minimize idle crypto drag by temporarily sweeping your digital assets to higher interest accounts (in this case, Compound v2 Presidio). Open to exploring additional defi infrastructures. 
 
 Sparked from an idea on how to offset the rising MakerDAO stability fee costs. Goal is to use hot/cold idle ETH to capture interest overnight.
 
