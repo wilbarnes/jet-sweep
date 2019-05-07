@@ -1,0 +1,56 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "cash",
+        "type": "uint256"
+      },
+      {
+        "name": "borrows",
+        "type": "uint256"
+      },
+      {
+        "name": "_reserves",
+        "type": "uint256"
+      }
+    ],
+    "name": "getBorrowRate",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "signature": "0x15f24053",
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "isInterestRateModel",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "signature": "0x2191f92a",
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "payable": false,
+    "signature": "constructor",
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  }
+]

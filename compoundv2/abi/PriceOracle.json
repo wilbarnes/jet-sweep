@@ -1,0 +1,76 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "isPriceOracle",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "signature": "0x66331bba",
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "cToken",
+        "type": "address"
+      }
+    ],
+    "name": "getUnderlyingPrice",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "signature": "0xfc57d4df",
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "cToken",
+        "type": "address"
+      },
+      {
+        "name": "underlyingPriceMantissa",
+        "type": "uint256"
+      }
+    ],
+    "name": "setUnderlyingPrice",
+    "outputs": [],
+    "payable": false,
+    "signature": "0x127ffda0",
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "address"
+      }
+    ],
+    "name": "assetPrices",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "signature": "0x5e9a523c",
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
